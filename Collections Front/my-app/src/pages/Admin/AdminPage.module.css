@@ -1,0 +1,19 @@
+.tableRow:hover {
+  background-color: #25726c;
+}
+
+.tableRowDark:hover {
+  background-color: rgba(94, 94, 94, 0.336);
+}
+
+.icons {
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.icons:hover {
+  scale: 1.3;
+  /* background-color:  #215752; */
+  /* padding: 2px; */
+  cursor: pointer;
+}

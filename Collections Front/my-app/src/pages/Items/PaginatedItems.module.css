@@ -1,0 +1,38 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  gap: 10px;
+  color: 'white';
+  padding: 0;
+}
+
+.pagenum {
+  padding: 6px 14px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #dcd7c9;
+  font-weight: 400;
+  background-color: #21494d;
+}
+
+.pagenum:hover {
+  cursor: pointer;
+  background-color: #022b31;
+  box-shadow: 20px;
+}
+
+.active {
+  border: 1px solid rgb(151, 129, 0);
+}
+
+.card {
+  background: 'none';
+  border-color: 'rgba(255, 255, 255, 0.2)';
+  color: 'primary.main';
+  padding: '0 5px';
+  backdrop-filter: 'invert(10%)';
+  transition: 'all 0.3s ease 0s';
+}

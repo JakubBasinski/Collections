@@ -1,0 +1,14 @@
+html,body {
+  font-family: 'Quicksand', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: white;
+  letter-spacing: 2px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+
